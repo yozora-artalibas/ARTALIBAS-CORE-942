@@ -1,0 +1,8 @@
+{
+  "name": "Remix Revisi 1 Rekapitulasi Personel Kompi Markas",
+  "description": "Remix 1 Sistem Rekapitulasi \u0026 Manajemen Personel Kompi Markas Yonif TP 942",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="id" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#111b21" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="ARTALIBAS" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="/pwa-192x192.png" />
+    <title>Kekuatan Apel Kompi Markas - Yonif TP 942/AW</title>
+    <meta name="description" content="Kekuatan Apel Kompi Markas - Yonif TP 942/AW (YONIF TP 942/ARYA WANGSAKARA) untuk pemantauan roll call apel harian dan status penugasan dinas." />
+    <meta property="og:title" content="Kekuatan Apel Kompi Markas - Yonif TP 942/AW" />
+    <meta property="og:description" content="Kekuatan Apel Kompi Markas - Yonif TP 942/AW (YONIF TP 942/ARYA WANGSAKARA) untuk pemantauan roll call apel harian dan status penugasan dinas." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <script>
+      window.__deferredPwaInstallPrompt = null;
+      window.addEventListener('beforeinstallprompt', function (e) {
+        e.preventDefault();
+        window.__deferredPwaInstallPrompt = e;
+        window.dispatchEvent(new CustomEvent('pwa-prompt-captured'));
+      });
+      window.addEventListener('appinstalled', function () {
+        window.__deferredPwaInstallPrompt = null;
+        window.dispatchEvent(new CustomEvent('pwa-prompt-captured'));
+      });
+    </script>
+  </head>
+  <body class="bg-[#0b141a] text-[#e9edef] antialiased selection:bg-[#00a884] selection:text-[#0b141a]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
